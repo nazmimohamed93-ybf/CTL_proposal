@@ -98,7 +98,7 @@
         <div id="modal-content" class="bg-white w-full max-w-xl rounded-[2.5rem] shadow-2xl overflow-hidden scale-90">
             <div class="p-8 border-b border-slate-100 flex justify-between items-center bg-slate-50">
                 <div>
-                    <p id="modal-kicker" class="kicker mb-1 text-sky-500">Information Details</p>
+                    <p id="modal-kicker" class="kicker mb-1 text-sky-500 text-[10px]">Financial Breakdown</p>
                     <h3 id="modal-title" class="text-2xl font-extrabold text-slate-900 uppercase">Details</h3>
                 </div>
                 <button onclick="closeModal()" class="p-3 bg-white border border-slate-200 rounded-2xl text-slate-400 hover:text-slate-900 hover:border-slate-400 transition-all">
@@ -107,8 +107,8 @@
             </div>
             <div id="modal-body" class="p-8 space-y-4 max-h-[60vh] overflow-y-auto"></div>
             <div class="p-8 bg-slate-900 text-white flex justify-between items-center">
-                <span class="text-xs font-bold uppercase tracking-widest text-slate-400">Reference Info</span>
-                <span id="modal-footer-ref" class="text-sm font-black text-sky-400 uppercase tracking-tighter">CFL Dashboard</span>
+                <span class="text-xs font-bold uppercase tracking-widest text-slate-400">Section Total (Est.)</span>
+                <span id="modal-footer-ref" class="text-xl font-black text-sky-400 uppercase tracking-tighter">CFL Dashboard</span>
             </div>
         </div>
     </div>
@@ -259,17 +259,17 @@
                     <div class="bg-white/10 p-8 rounded-3xl backdrop-blur-md border border-white/20 hover:bg-white/15 transition-all text-center group cursor-pointer" onclick="openModal('realScience')">
                         <div class="mb-6 text-sky-300 group-hover:scale-110 transition-transform"><i data-lucide="microscope" class="w-10 h-10 mx-auto"></i></div>
                         <h4 class="font-bold text-lg mb-3 uppercase tracking-tight">Real Science</h4>
-                        <p class="text-sm text-sky-100 opacity-80 leading-relaxed">Hands-on experimentation beyond the standard textbook curriculum.</p>
+                        <p class="text-sm text-sky-100 opacity-80 leading-relaxed h-12">Hands-on experimentation that moves beyond the standard textbook curriculum.</p>
                     </div>
                     <div class="bg-white/10 p-8 rounded-3xl backdrop-blur-md border border-white/20 hover:bg-white/15 transition-all text-center group cursor-pointer" onclick="openModal('jobCreation')">
                         <div class="mb-6 text-sky-300 group-hover:scale-110 transition-transform"><i data-lucide="briefcase" class="w-10 h-10 mx-auto"></i></div>
                         <h4 class="font-bold text-lg mb-3 uppercase tracking-tight">Job Creation</h4>
-                        <p class="text-sm text-sky-100 opacity-80 leading-relaxed">Meaningful technical pathways for 5-10 graduates per regional mobile hub.</p>
+                        <p class="text-sm text-sky-100 opacity-80 leading-relaxed h-12">Meaningful technical pathways for 5-10 graduates per regional mobile hub.</p>
                     </div>
                     <div class="bg-white/10 p-8 rounded-3xl backdrop-blur-md border border-white/20 hover:bg-white/15 transition-all text-center group cursor-pointer" onclick="openModal('equalAccess')">
                         <div class="mb-6 text-sky-300 group-hover:scale-110 transition-transform"><i data-lucide="target" class="w-10 h-10 mx-auto"></i></div>
                         <h4 class="font-bold text-lg mb-3 uppercase tracking-tight">Equal Access</h4>
-                        <p class="text-sm text-sky-100 opacity-80 leading-relaxed">Ensuring rural and B40 school clusters receive high-quality exposure.</p>
+                        <p class="text-sm text-sky-100 opacity-80 leading-relaxed h-12">Ensuring rural and B40 school clusters receive high-quality exposure.</p>
                     </div>
                 </div>
                 <!-- Bottom Row: 2 Cards Middle and Center -->
@@ -277,12 +277,12 @@
                     <div class="w-full md:w-1/2 lg:w-1/3 bg-white/10 p-8 rounded-3xl backdrop-blur-md border border-white/20 hover:bg-white/15 transition-all text-center group cursor-pointer" onclick="openModal('stemInterest')">
                         <div class="mb-6 text-emerald-400 group-hover:scale-110 transition-transform"><i data-lucide="rocket" class="w-10 h-10 mx-auto"></i></div>
                         <h4 class="font-bold text-lg mb-3 uppercase tracking-tight">STEM Interest</h4>
-                        <p class="text-sm text-sky-100 opacity-80 leading-relaxed">Proactively nurturing curiosity and awareness for technical careers.</p>
+                        <p class="text-sm text-sky-100 opacity-80 leading-relaxed h-12">Proactively nurturing curiosity and awareness for future technical careers.</p>
                     </div>
                     <div class="w-full md:w-1/2 lg:w-1/3 bg-white/10 p-8 rounded-3xl backdrop-blur-md border border-white/20 hover:bg-white/15 transition-all text-center group cursor-pointer" onclick="openModal('innovation')">
                         <div class="mb-6 text-emerald-400 group-hover:scale-110 transition-transform"><i data-lucide="lightbulb" class="w-10 h-10 mx-auto"></i></div>
                         <h4 class="font-bold text-lg mb-3 uppercase tracking-tight">Innovation Culture</h4>
-                        <p class="text-sm text-sky-100 opacity-80 leading-relaxed">Developing a national problem-solving creative mindset.</p>
+                        <p class="text-sm text-sky-100 opacity-80 leading-relaxed h-12">Developing a national problem-solving creative mindset through experimentation.</p>
                     </div>
                 </div>
             </div>
@@ -332,7 +332,7 @@
         </div>
     </section>
 
-    <!-- 05. Subject Pillars (Updated Sample Modules) -->
+    <!-- 05. Subject Pillars -->
     <section id="pillars" class="slide bg-slate-50">
         <div class="max-w-6xl mx-auto px-4 text-center">
             <p class="kicker mb-4">The Curriculum</p>
@@ -432,7 +432,7 @@
         </div>
     </section>
 
-    <!-- 06. Program Benefits -->
+    <!-- 06. Impact Benefits -->
     <section id="benefits" class="slide bg-white">
         <div class="max-w-6xl mx-auto px-4">
             <p class="kicker text-center mb-4">Strategic Impact</p>
@@ -498,7 +498,7 @@
         </div>
     </section>
 
-    <!-- 08. Funding Model -->
+    <!-- 08. Funding Model (Updated for Expansion) -->
     <section id="budget" class="slide bg-white">
         <div class="max-w-6xl mx-auto px-4">
             <div class="grid md:grid-cols-2 gap-16 items-center">
@@ -507,7 +507,7 @@
                     <h2 class="text-4xl font-extrabold mb-8 uppercase text-slate-900 leading-tight">Funding <br/><span class="text-sky-600">Requirements</span></h2>
                     <div class="h-64 mb-8"><canvas id="budgetChart"></canvas></div>
                 </div>
-                <div class="space-y-4">
+                <div class="grid grid-cols-1 gap-4">
                     <div class="p-6 bg-slate-50 border border-slate-100 rounded-2xl flex justify-between items-center group hover:border-sky-400 transition-all cursor-pointer shadow-sm" onclick="openModal('hr')">
                         <div><p class="text-xs font-bold uppercase text-slate-400">Human Resources (Est.)</p><p class="text-lg font-extrabold">RM 240,000</p></div>
                         <i data-lucide="plus-circle" class="text-sky-500 group-hover:rotate-90 transition-transform"></i>
@@ -519,6 +519,17 @@
                     <div class="p-6 bg-slate-50 border border-slate-100 rounded-2xl flex justify-between items-center group hover:border-orange-400 transition-all cursor-pointer shadow-sm" onclick="openModal('logistics')">
                         <div><p class="text-xs font-bold uppercase text-slate-400">Logistics & Travel (Est.)</p><p class="text-lg font-extrabold">RM 60,000</p></div>
                         <i data-lucide="plus-circle" class="text-orange-500 group-hover:rotate-90 transition-transform"></i>
+                    </div>
+                    <!-- Added Ops and Training detail points -->
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="p-4 bg-slate-50 border border-slate-100 rounded-2xl flex justify-between items-center group hover:border-purple-400 transition-all cursor-pointer" onclick="openModal('training')">
+                            <div><p class="text-[8px] font-bold uppercase text-slate-400">Training</p><p class="text-sm font-bold">RM 20k</p></div>
+                            <i data-lucide="plus-circle" class="w-4 h-4 text-purple-500"></i>
+                        </div>
+                        <div class="p-4 bg-slate-50 border border-slate-100 rounded-2xl flex justify-between items-center group hover:border-slate-400 transition-all cursor-pointer" onclick="openModal('ops')">
+                            <div><p class="text-[8px] font-bold uppercase text-slate-400">Admin/Ops</p><p class="text-sm font-bold">RM 70k</p></div>
+                            <i data-lucide="plus-circle" class="w-4 h-4 text-slate-500"></i>
+                        </div>
                     </div>
                     <div class="p-6 bg-slate-900 text-white rounded-2xl flex justify-between items-center shadow-xl">
                         <div><p class="text-[10px] font-bold uppercase text-slate-400">Total Est. Annual Budget</p><p class="text-2xl font-black">RM 470,000</p></div>
@@ -569,54 +580,83 @@
         lucide.createIcons();
 
         const modalData = {
-            summaryDetails: {
-                kicker: "Strategic Intent", title: "Why CFL Matters", total: "Impact Overview",
+            hr: {
+                kicker: "Cost Detail: Human Capital", title: "Science Executive Salaries", total: "RM 240,000 / yr",
                 items: [
-                    { label: "The Problem", val: "Underutilized Talent", desc: "STEM graduates often work outside their field due to lack of local industry exposure." },
-                    { label: "The Need", val: "Practical Deficit", desc: "Public schools face resource gaps, preventing students from experiencing real science." },
-                    { label: "The Mission", val: "Mobile Discovery", desc: "Delivering lab-grade tools and expert facilitation directly to the students." }
+                    { label: "Base Salary", val: "RM 3,000 - 4,000", desc: "Monthly take-home for 5-10 technical facilitators." },
+                    { label: "Statutory", val: "EPF / SOCSO", desc: "Full mandatory employer contributions for professional stability." },
+                    { label: "Field Lead", val: "RM 12,000 allowance", desc: "Performance-based bonus for hub coordination and safety oversight." },
+                    { label: "Insurance", val: "Group Coverage", desc: "Comprehensive lab and travel liability for field executives." }
+                ]
+            },
+            materials: {
+                kicker: "Cost Detail: Lab Assets", title: "Experiment Resources", total: "RM 80,000 / yr",
+                items: [
+                    { label: "Consumables", val: "Chemicals & Reagents", desc: "Acids, bases, and reactive elements for volcano and molecular labs." },
+                    { label: "Safety Gear", val: "Personal Prot.", desc: "Student goggles, lab coats, and safety gloves for school clusters." },
+                    { label: "Capital Assets", val: "Reusable STEM Kits", desc: "Modular robotics, electronic circuitry sets, and micro-filters." },
+                    { label: "Documentation", val: "Module Prints", desc: "High-quality student inquiry workbooks and technical manuals." }
+                ]
+            },
+            logistics: {
+                kicker: "Cost Detail: Mobility", title: "Travel & Hub Operations", total: "RM 60,000 / yr",
+                items: [
+                    { label: "Interstate", val: "Fuel & Tolls", desc: "Transport for Mobile Units covering rural Sabah, Sarawak, and East Coast." },
+                    { label: "Lodging", val: "District Hubs", desc: "Accommodation for executives during 2-day district congregation events." },
+                    { label: "Hub Meals", val: "Staff Per-Diem", desc: "Meal allowances during multi-day rural school activation tours." },
+                    { label: "Vehicle", val: "Maint. & Insurance", desc: "Routine servicing and road-tax for high-mileage mobile lab units." }
+                ]
+            },
+            training: {
+                kicker: "Cost Detail: Development", title: "Training & Vetting", total: "RM 20,000 / yr",
+                items: [
+                    { label: "Pedagogy", val: "Engagement Workshop", desc: "Child psychology and facilitation training for technical grads." },
+                    { label: "Safety", val: "First-Aid Certification", desc: "Mandatory safety training for field laboratory management." },
+                    { label: "Communication", val: "Technical Storytelling", desc: "Mastering the art of simplifying science for student curiosity." }
+                ]
+            },
+            ops: {
+                kicker: "Cost Detail: Operations", title: "Administration & Outreach", total: "RM 70,000 / yr",
+                items: [
+                    { label: "Coordination", val: "Scheduling Tech", desc: "Digital platform for district hub and school visitation management." },
+                    { label: "Marketing", val: "Outreach & Documentation", desc: "Design and design of impact reports for MOE and Corporate CSR." },
+                    { label: "Admin", val: "Utilities & Space", desc: "Central office costs for regional hub coordination." }
                 ]
             },
             benefitStudents: {
-                kicker: "Triple Impact", title: "Student Growth", total: "Individual Success",
+                kicker: "Triple Impact", title: "Student Growth", total: "High Impact",
                 items: [
-                    { label: "Reach", val: "Real Science", desc: "Experience theory transformed into practice through live experiments." },
-                    { label: "Mindset", val: "Curiosity", desc: "Developing the critical 'how' and 'why' mentality in education." },
-                    { label: "Cognition", val: "Critical Thinking", desc: "Applying scientific methods to solve real-world problems." },
-                    { label: "Pathways", val: "STEM Inspiration", desc: "Direct exposure to professionals to demystify technical careers." }
+                    { label: "Discovery", val: "Real Science", desc: "Moving beyond memorization into live, hands-on scientific proofing." },
+                    { label: "Curiosity", val: "Inquiry Skills", desc: "Building the 'how' and 'why' mentality essential for WEF job-readiness." },
+                    { label: "Self-Esteem", val: "Confidence", desc: "Empowering students through successful experimental outcomes." }
                 ]
             },
             benefitSchools: {
-                kicker: "Triple Impact", title: "Institutional Support", total: "System Success",
+                kicker: "Triple Impact", title: "System Success", total: "High Impact",
                 items: [
-                    { label: "Economics", val: "Zero Budget", desc: "Schools receive activations without drawing from internal funds." },
-                    { label: "Workload", val: "Teacher Relief", desc: "Experts handle heavy prep, allowing teachers to focus on student support." },
-                    { label: "Quality", val: "STEM Activities", desc: "Professionally vetted modules ready for immediate use." },
-                    { label: "Metric", val: "Engagement Lift", desc: "Dramatically improved student interest in science streams." }
+                    { label: "Resources", val: "Zero Budget", desc: "Participating schools get high-end labs without drawing from internal funds." },
+                    { label: "Teachers", val: "Workload Relief", desc: "Professional facilitators handle setup, delivery, and cleanup." },
+                    { label: "Quality", val: "Vetted Modules", desc: "Ready-made, high-impact activities aligned with MOE requirements." }
                 ]
             },
             benefitGrads: {
-                kicker: "Triple Impact", title: "Career Launchpad", total: "Professional Success",
+                kicker: "Triple Impact", title: "Career Path", total: "High Impact",
                 items: [
-                    { label: "Economic", val: "STEM Roles", desc: "Immediate transition from university to technical project management." },
-                    { label: "Articulation", val: "Communication", desc: "Mastering the ability to simplify complex data for non-technical audiences." },
-                    { label: "Network", val: "Professional Hubs", desc: "Building direct links to corporate CSR partners and Ministries." },
-                    { label: "Leadership", val: "Facilitation", desc: "Gaining essential field-work and public-speaking exposure." }
+                    { label: "Income", val: "Job Opportunities", desc: "Immediate transition into high-value technical facilitation roles." },
+                    { label: "Skill-up", val: "Soft Skills", desc: "Developing communication and project management mastery." },
+                    { label: "Network", val: "Industry Links", desc: "Direct exposure to CSR stakeholders and Ministry officials." }
                 ]
             },
-            hr: { kicker: "Cost Detail", title: "Salaries", total: "RM 240,000/yr", items: [{ label: "Range", val: "RM 3k-4k/mo", desc: "Per executive based on qualification." }] },
-            materials: { kicker: "Cost Detail", title: "Materials", total: "RM 80,000/yr", items: [{ label: "Per visit", val: "RM 500-1500", desc: "Consumables for experiments." }] },
-            logistics: { kicker: "Cost Detail", title: "Travel", total: "RM 60,000/yr", items: [{ label: "Type", val: "Interstate", desc: "Fuel & Servicing for Mobile Units." }] },
-            phase1: { kicker: "Roadmap", title: "Phase 1", total: "Pilot Stage", items: [{ label: "Goal", val: "20 Schools", desc: "Initial logistical testing." }] },
-            phase2: { kicker: "Roadmap", title: "Phase 2", total: "Expansion Stage", items: [{ label: "Goal", val: "5 States", desc: "Scaling regional hubs." }] },
-            phase3: { kicker: "Roadmap", title: "Phase 3", total: "National Stage", items: [{ label: "Goal", val: "14 States", desc: "Full ministerial integration." }] },
-            realScience: { kicker: "Detail", title: "Hands-on", total: "Interactive", items: [{ label: "Mode", val: "Inquiry", desc: "Students lead the discovery." }] },
-            jobCreation: { kicker: "Detail", title: "Talent", total: "Graduates", items: [{ label: "Focus", val: "Professional", desc: "Technical roles for national talent." }] },
-            equalAccess: { kicker: "Detail", title: "Inclusion", total: "Equity", items: [{ label: "Focus", val: "Underserved", desc: "Bridging the resource divide." }] },
-            stemInterest: { kicker: "Detail", title: "Awareness", total: "Pipeline", items: [{ label: "Outcome", val: "STEM Enrolment", desc: "Supporting science-stream growth." }] },
-            innovation: { kicker: "Detail", title: "Mindset", total: "Creativity", items: [{ label: "Outcome", val: "Problem Solving", desc: "National culture shift." }] },
-            dualMode: { kicker: "Ops", title: "Visitation", total: "Dual-Path", items: [{ label: "Model", val: "Flexible", desc: "Individual school visits vs District Hubs." }] },
-            execDuties: { kicker: "Ops", title: "Operations", total: "Full-Cycle", items: [{ label: "Duties", val: "Facilitator", desc: "End-to-end technical engagement." }] }
+            realScience: { kicker: "Detail", title: "Science Mode", total: "Inquiry-Based", items: [{ label: "Focus", val: "Hands-on", desc: "Students lead the discovery. No spectator-only learning." }] },
+            jobCreation: { kicker: "Detail", title: "Retention", total: "Talent Path", items: [{ label: "Target", val: "Buffer Roles", desc: "Professional technical roles for national talent retention." }] },
+            equalAccess: { kicker: "Detail", title: "Social Equity", total: "Leave No One Behind", items: [{ label: "Focus", val: "B40 schools", desc: "Bridging the resource divide for underserved clusters." }] },
+            stemInterest: { kicker: "Detail", title: "Pipeline", total: "Enrollment", items: [{ label: "Outcome", val: "60:40 Goal", desc: "Increasing enrollment in science streams via engagement." }] },
+            innovation: { kicker: "Detail", title: "Culture", total: "Problem Solvers", items: [{ label: "Outcome", val: "Mindset Shift", desc: "Creating a national culture of scientific experimentation." }] },
+            dualMode: { kicker: "Ops", title: "Visitation", total: "Efficiency", items: [{ label: "Flexible", val: "Hub Model", desc: "School visits vs 2-day District Congregation hubs." }] },
+            execDuties: { kicker: "Ops", title: "Facilitation", total: "Operations", items: [{ label: "Duty", val: "Full Cycle", desc: "Setup, safety checks, student facilitation, and reporting." }] },
+            phase1: { kicker: "Roadmap", title: "Pilot Stage", total: "Months 1-6", items: [{ label: "Milestone", val: "Team & Test", desc: "Hiring initial 5-10 execs and testing 20 schools." }] },
+            phase2: { kicker: "Roadmap", title: "Growth Stage", total: "Months 6-12", items: [{ label: "Milestone", val: "Digital Launch", desc: "Scaling reach to 5 states and launching student portal." }] },
+            phase3: { kicker: "Roadmap", title: "Scale Stage", total: "Year 1-3", items: [{ label: "Milestone", val: "Full Integration", desc: "Nationwide implementation and MOE/MOSTI alignment." }] }
         };
 
         function openModal(type) {
